@@ -1,26 +1,14 @@
-name: ClearChat
-main: Plug
+name: BetterClearChat
+main: Main
+author: MrSoftwareGuy
 version: 1.0
-api: [2.0.0, 3.0.1, 3.0.0]
+api: 2.0.0
 
 commands:
-  ccme:
-    description: "Очистить себе чат"
-    permission: "ccme.cmd"
-    alias: [clearchatme]
   cc:
-    description: "Очистить всем чат"
+    description: "Comando ClearChat"
     permission: "cc.cmd"
-    alias: [clearchat]
-  ccp:
-    description: "Очистить игроку чат"
-    permission: "ccp.cmd"
-    alias: [clearchatplayer]
 
 permissions:
-  ccme.cmd:
-    default: op
   cc.cmd:
-    default: op
-  ccp.cmd:
     default: op
